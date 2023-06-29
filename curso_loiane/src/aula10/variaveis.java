@@ -6,6 +6,8 @@ public class variaveis {
         // convenção java aceita
         int idade = 20;
         String nome = "Minas";
+        String nomeDoMeuCachorro = "Totó";
+        String ano2014 = "2014";
 
         // aceito mas não utilizado
         int _idade;
