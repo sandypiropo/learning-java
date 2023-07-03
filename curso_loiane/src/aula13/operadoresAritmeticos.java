@@ -37,6 +37,15 @@ public class operadoresAritmeticos {
         // mesma coisa que
         //System.out.println(resultado);
         //resultado += 1;
+
         System.out.println(++resultado); // 7
+        // mesma coisa que
+        //resultado += 1;
+        //System.out.println(resultado);
+
+        resultado--;
+        System.out.println(resultado);
+        System.out.println(resultado--);
+        System.out.println(--resultado);
     }
 }
