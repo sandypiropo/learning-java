@@ -1,4 +1,4 @@
-package aula10;
+package loianeaulas.aula10;
 
 public class variaveis {
     public static void main(String[] args) {

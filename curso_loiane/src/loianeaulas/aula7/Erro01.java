@@ -1,4 +1,4 @@
-package aula7;
+package loianeaulas.aula7;
 
 public class Erro01 {
     public static void main(String[] args) {

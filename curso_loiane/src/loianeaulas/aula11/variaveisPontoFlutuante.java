@@ -1,4 +1,4 @@
-package aula11;
+package loianeaulas.aula11;
 
 public class variaveisPontoFlutuante {
     public static void main(String[] args) {

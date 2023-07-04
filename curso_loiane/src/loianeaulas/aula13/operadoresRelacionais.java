@@ -1,4 +1,4 @@
-package aula13;
+package loianeaulas.aula13;
 
 public class operadoresRelacionais {
     public static void main(String[] args) {

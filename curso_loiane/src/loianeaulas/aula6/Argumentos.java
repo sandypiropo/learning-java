@@ -1,4 +1,4 @@
-package aula6;
+package loianeaulas.aula6;
 
 public class Argumentos {
     public static void main(String[] args) {

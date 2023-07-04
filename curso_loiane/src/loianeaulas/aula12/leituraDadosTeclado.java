@@ -1,4 +1,4 @@
-package aula12;
+package loianeaulas.aula12;
 
 import java.util.Scanner;
 

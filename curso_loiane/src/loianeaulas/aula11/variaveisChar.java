@@ -1,4 +1,4 @@
-package aula11;
+package loianeaulas.aula11;
 
 public class variaveisChar {
     public static void main(String[] args) {

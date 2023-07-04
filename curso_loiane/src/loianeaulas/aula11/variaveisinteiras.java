@@ -1,4 +1,4 @@
-package aula11;
+package loianeaulas.aula11;
 // -*- coding: utf-8 -*-
 
 public class variaveisinteiras {

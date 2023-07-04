@@ -1,4 +1,4 @@
-package aula5;
+package loianeaulas.aula5;
 
 public class HelloWorld {
     public static void main(String[] args) {
