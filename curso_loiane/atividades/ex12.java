@@ -2,10 +2,12 @@ package atividades;
 
 import java.util.Scanner;
 
-public class ex12 {
+public class ex12 { // junto com o ex13
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
+        System.out.println("Digite seu peso: ");
+        float peso = sc.nextFloat();
         System.out.print("Digite sua altura: ");
         float h = sc.nextFloat();
         System.out.print("Digite seu sexo [M/F]: ");
@@ -23,7 +25,19 @@ public class ex12 {
             return;
         }
 
-        System.out.printf("Peso ideal: %.2f", pesoIdeal);
+        float imc = peso / (h * h);
+
+        if (imc < 18.5) {
+            System.out.printf("%.2f - abaixo do peso", imc);
+        }
+        else if (imc <= 25) {
+            System.out.printf("%.2f - dentro do ideal", imc);
+        }
+        else if ( imc > 25) {
+            System.out.printf("%.2f - Acima do peso", imc);
+        }
+
+        System.out.printf("\nPeso ideal: %.2f", pesoIdeal);
 
     }
 }
