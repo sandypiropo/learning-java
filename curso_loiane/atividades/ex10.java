@@ -7,9 +7,9 @@ public class ex10 {
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Digite a temperatura em Celsius: ");
-        float celsius = sc.nextFloat();
+        double celsius = sc.nextDouble();
 
-        float farenheit = celsius * (float) 1.8 + 32;
+        double farenheit = celsius * (float) 1.8 + 32;
         System.out.printf("Farenheit: %.1f", farenheit);
     }
 }

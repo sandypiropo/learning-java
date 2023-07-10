@@ -7,13 +7,13 @@ public class ex8 {
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Digite o valor por hora: ");
-        int valorPorHora = sc.nextInt();
+        double valorPorHora = sc.nextDouble();
 
         System.out.println("Total de horas de trabalho no mês: ");
-        float horasTrabalhadas = sc.nextFloat();
+        double horasTrabalhadas = sc.nextDouble();
 
-        float salarioTotal = valorPorHora * horasTrabalhadas;
+        double salarioTotal = valorPorHora * horasTrabalhadas;
 
-        System.out.printf("TOTAL: %.2f\n", salarioTotal);
+        System.out.println("TOTAL: " + salarioTotal);
     }
 }
