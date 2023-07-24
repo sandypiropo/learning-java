@@ -19,6 +19,5 @@ public class Ex06 {
 
         System.out.println("O maior número é: " + maiorNumero);
 
-        scanner.close();
     }
 }
