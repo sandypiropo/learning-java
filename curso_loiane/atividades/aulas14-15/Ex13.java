@@ -11,8 +11,7 @@ public class Ex13 {
         switch (numero) {
             case 1:
                 System.out.println("Domingo");
-                break;
-            case 2:
+                break;         case 2:
                 System.out.println("Segunda");
                 break;
             case 3:
