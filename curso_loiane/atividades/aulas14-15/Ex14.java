@@ -10,6 +10,7 @@ public class Ex14 {
         double nota1 = -1;
         double nota2 = -2;
         boolean valoresValidos = false;
+        String nota;
 
         do {
             try{
@@ -33,14 +34,25 @@ public class Ex14 {
 
         if (media < 4.0) {
             System.out.println("E");
+            nota = "E";
         } else if (media < 6.0) {
             System.out.println("D");
+            nota = "D";
         } else if (media < 7.5) {
             System.out.println("C");
+            nota = "C";
         } else if (media < 9.0) {
             System.out.println("B");
+            nota = "B";
         } else {
             System.out.println("A");
+            nota = "A";
+    }
+
+        if (nota.equals("E") || nota.equals("D")) {
+            System.out.println("REPROVADO");
+        } else {
+            System.out.println("APROVADO");
         }
         scanner.close();
     }
