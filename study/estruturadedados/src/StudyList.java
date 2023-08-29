@@ -14,6 +14,8 @@ public class StudyList {
         lista.add(1);
 
         print(lista);
+
+        //SAÍDA: Todos os items adicionados pelo método
     }
 
     private static void print(List<Integer> item) {
