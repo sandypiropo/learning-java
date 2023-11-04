@@ -4,6 +4,7 @@
 
 package vetores;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Ex05 {
@@ -17,14 +18,24 @@ public class Ex05 {
         int[] numeros = new int[qtd];
 
         for(int i=0;i<numeros.length;i++) {
-            System.out.println("Escreva o número: ");
-            int n = sc.nextInt();
-
-            
+            System.out.println("Escreva o " + (i + 1) + "° número: ");
+            numeros[i] = sc.nextInt();
         }
 
+        int maior = Integer.MIN_VALUE;
+        int posicaoMaior = -1;
+
+        for (int i=0 ; i < qtd; i++) {
+            if (numeros[i] > maior) {
+                maior = numeros[i];
+                posicaoMaior = i;
+            }
+        }
 
         sc.close();
 
+        System.out.println("Maior número: " + maior);
+        System.out.println(posicaoMaior);
+        System.out.println(Arrays.toString(numeros));
     }
 }
