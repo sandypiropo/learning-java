@@ -3,7 +3,7 @@ package vetores;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Ex05 {
+public class Maior_posicao {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

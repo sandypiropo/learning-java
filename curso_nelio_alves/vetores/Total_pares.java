@@ -3,7 +3,7 @@ package vetores;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Ex04 {
+public class Total_pares {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -15,7 +15,7 @@ public class Ex04 {
         ArrayList<Integer> evenNumber = new ArrayList<>();
 
         for (int i=0 ; i<numberList.length; i++) {
-            System.out.println("Digite um numero: ");
+            System.out.println("Choose a number: ");
             numberList[i] = sc.nextInt();
             if (numberList[i] % 2 == 0) {
                 even++;

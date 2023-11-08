@@ -3,7 +3,7 @@ package vetores;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Ex01 {
+public class Negativos {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int contador = 0; // contador de numeros negativos

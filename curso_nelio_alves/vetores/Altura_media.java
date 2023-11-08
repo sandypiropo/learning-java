@@ -3,7 +3,7 @@ package vetores;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Ex03 {
+public class Altura_media {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
