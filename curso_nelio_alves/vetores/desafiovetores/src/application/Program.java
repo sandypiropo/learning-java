@@ -10,7 +10,7 @@ public class Program {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        Rent[] vect = new Rent[10];
+        Rent[] vect = new Rent[11];
 
         System.out.println("How many rooms will be ranted? ");
         int num = sc.nextInt();
@@ -29,7 +29,7 @@ public class Program {
         }
 
         System.out.println();
-        for (int i=0;i<10;i++) {
+        for (int i=0;i<vect.length;i++) {
             if (vect[i] != null) {
                 System.out.println(i + ": " + vect[i]);
             }
