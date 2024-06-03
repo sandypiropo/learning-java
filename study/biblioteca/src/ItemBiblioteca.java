@@ -7,5 +7,14 @@ public abstract class ItemBiblioteca {
         this.anoDePublicacao = anoDePublicacao;
     }
 
+    public String getTitulo() {
+        return titulo;
+    }
+
+
+    public int getAnoDePublicacao() {
+        return anoDePublicacao;
+    }
+
 
 }

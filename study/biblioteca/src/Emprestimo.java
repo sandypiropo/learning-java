@@ -13,17 +13,6 @@ public class Emprestimo {
         this.dataDevolucao = dataDevolucao;
     }
 
-    public void realizarEmprestimo() {
-
-    }
-
-    public void realizarDevolucao() {
-
-    }
-
-    public void exibirInformacoes() {
-
-    }
     @Override
     public String toString() {
         return "Emprestimo{" +

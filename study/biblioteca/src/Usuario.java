@@ -24,7 +24,7 @@ public class Usuario {
         return email;
     }
 
-    public int getNumeroTel() {
+    public String getNumeroTel() {
         return numeroTel;
     }
 

@@ -31,6 +31,7 @@ public class Livro extends ItemBiblioteca implements Emprestavel{
         System.out.println("Autor: " + autor);
         System.out.println("ISBN: " + ISBN);
         System.out.println("Número de Páginas: " + numeroPaginas);
+        System.out.println("Emprestado: " + (emprestado ? "Sim" : "Não"));
     }
 
     public String getAutor() {
@@ -50,12 +51,5 @@ public class Livro extends ItemBiblioteca implements Emprestavel{
         return numeroPaginas;
     }
 
-    @Override
-    public String toString() {
-        return "Livro{" +
-                ", autor='" + autor + '\'' +
-                ", ISBN='" + ISBN + '\'' +
-                ", numeroPaginas=" + numeroPaginas +
-                '}';
-    }
+
 }
